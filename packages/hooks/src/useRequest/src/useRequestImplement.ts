@@ -11,7 +11,7 @@ import Fetch from './Fetch';
 function useRequestImplement<TData, TParams extends any[]>(service, options, plugins) {
     const { manual = false, ...rest } = options;
 
-    if (isDev) {
+    if (/*isDev*/true) {
         if (options.defaultParams && !Array.isArray(options.defaultParams)) {
             console.warn(`expected defaultParams is array, got ${typeof options.defaultParams}`);
         }

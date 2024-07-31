@@ -10,6 +10,16 @@ Did you mean 'test-pattern'? Use "--config.unknown=value" to force an unknown op
 可使用如下命令创建：
 `pnpm create vite my-vue-app --- --template vue`
 
+# 安装依赖
+```
+pnpm i
+```
+
+# 启动项目
+```
+pnpm run dev
+```
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
