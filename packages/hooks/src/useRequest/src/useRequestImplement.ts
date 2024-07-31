@@ -8,7 +8,7 @@ import useCreation from "../../useCreation";
 
 import Fetch from './Fetch';
 
-function useRequestImplement<TData, TParams extends any[]>(service, options, plugins) {
+function useRequestImplement<TData, TParams extends any[]>(service, options = {}, plugins = []) {
     const { manual = false, ...rest } = options;
 
     if (/*isDev*/true) {

@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "antd": "^5.19.4",
+    "mockjs": "^1.1.0",
     "thooks": "workspace:*"
   },
   "devDependencies": {
